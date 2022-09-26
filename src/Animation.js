@@ -5,7 +5,7 @@ export default function Animation() {
   const divRef = useRef(null);
 
   useEffect(() => {
-    console.log(divRef.current);
+    // console.log(divRef.current);
     VanillaTilt.init(divRef.current, {
       max: 25,
       speed: 400,
