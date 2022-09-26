@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import ClassCounter from "./ClassCounter";
 import FunctionCounter from "./FunctionCounter";
+import Quantity from "./Quantity";
 
 function App() {
   const [users, setUsers] = useState([
@@ -75,6 +76,7 @@ function App() {
       <div>
         <ClassCounter />
         <FunctionCounter />
+        <Quantity/>
       </div>
 
       <div>
